@@ -1,0 +1,244 @@
+<factura id="comprobante" version="1.1.0">
+    <infoTributaria>
+        <ambiente>1</ambiente>
+        <tipoEmision>1</tipoEmision>
+        <razonSocial>JIMENEZ VITERI DENIS JADIRA</razonSocial>
+        <ruc>1851003564001</ruc>
+        <claveAcceso>2505202401185100356400110010010000003137101117318</claveAcceso>
+        <codDoc>01</codDoc>
+        <estab>001</estab>
+        <ptoEmi>100</ptoEmi>
+        <secuencial>000000313</secuencial>
+        <dirMatriz>Av. Prueba 12</dirMatriz>
+    </infoTributaria>
+    <infoFactura>
+        <fechaEmision>25/05/2024</fechaEmision>
+        <dirEstablecimiento>Av. Prueba 12</dirEstablecimiento>
+        <obligadoContabilidad>NO</obligadoContabilidad>
+        <tipoIdentificacionComprador>07</tipoIdentificacionComprador>
+        <razonSocialComprador>PRUEBAS SERVICIO DE RENTAS INTERNAS</razonSocialComprador>
+        <identificacionComprador>9999999999999</identificacionComprador>
+        <totalSinImpuestos>548.60</totalSinImpuestos>
+        <totalDescuento>0.00</totalDescuento>
+        <totalConImpuestos>
+            <totalImpuesto>
+                <codigo>2</codigo>
+                <codigoPorcentaje>4</codigoPorcentaje>
+                <baseImponible>548.60</baseImponible>
+                <valor>82.29</valor>
+            </totalImpuesto>
+        </totalConImpuestos>
+        <propina>0</propina>
+        <importeTotal>630.89</importeTotal>
+        <moneda>DOLAR</moneda>
+        <pagos>
+            <pago>
+                <formaPago>01</formaPago>
+                <total>630.89</total>
+            </pago>
+        </pagos>
+    </infoFactura>
+    <detalles>
+        <detalle>
+            <codigoPrincipal>4</codigoPrincipal>
+            <descripcion>SERVICIOS PERSONALES COMO EDUCADORA DEL MES DE ABRIL</descripcion>
+            <cantidad>1</cantidad>
+            <precioUnitario>548.60</precioUnitario>
+            <descuento>0.00</descuento>
+            <precioTotalSinImpuesto>548.60</precioTotalSinImpuesto>
+            <impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>4</codigoPorcentaje>
+                    <tarifa>15.0</tarifa>
+                    <baseImponible>548.60</baseImponible>
+                    <valor>82.29</valor>
+                </impuesto>
+            </impuestos>
+        </detalle>
+    </detalles>
+    <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+        <SignedInfo>
+            <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+            <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" />
+            <Reference URI="">
+                <Transforms>
+                    <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+                </Transforms>
+                <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+                <DigestValue>gIi2WycMGDXR6YwEnHKYvlEunSxn2Gss6V8iZs5Shm4=</DigestValue>
+            </Reference>
+        </SignedInfo>
+        <SignatureValue>QOgGIXWDPUcDWZ4eMrN5uJOgyUuDtqhbeIO/onMOsL75+fn93cL/y4XvTc07OcWn2mCsyK9eYBnW&#13;
+            MEVrXh5q5mrpUbMkafnzt7ooET43TPQCG7lFHas6BLGJHylvyFJh91G0i9DHtBNH/oDnm/DJozGg&#13;
+            9jlytxW/+JtK4yNQTfTR+o+TuaeBfSc3qU71yGUZnueS/xMRvbYYRoQthPbCSIVK7Dhk2ILIYtVV&#13;
+            kqHcjma3UC9054tP+wYiEUzn4e5YTuVh08JiaOLVAzsnAeUoAUwwJlEM+A5CE48clfNeEWUDf+3w&#13;
+            1iIRqKJRLnva1s+I9H+BaAw/iTRHZaVPqrzWVw==</SignatureValue>
+        <KeyInfo>
+            <X509Data>
+                <X509Certificate>MIIJHjCCBwagAwIBAgIIR0RDyxEz8mEwDQYJKoZIhvcNAQELBQAwgbgxCzAJBgNVBAYTAkVTMUQw&#13;
+                    QgYDVQQHDDtCYXJjZWxvbmEgKHNlZSBjdXJyZW50IGFkZHJlc3MgYXQgd3d3LnVhbmF0YWNhLmNv&#13;
+                    bS9hZGRyZXNzKTEWMBQGA1UECgwNVUFOQVRBQ0EgUy5BLjEVMBMGA1UECwwMVFNQLVVBTkFUQUNB&#13;
+                    MRowGAYDVQQDDBFVQU5BVEFDQSBDQTIgMjAxNjEYMBYGA1UEYQwPVkFURVMtQTY2NzIxNDk5MB4X&#13;
+                    DTI0MDMzMDE2NDQwMFoXDTI1MDMzMDE2NDQwMFowgZwxCzAJBgNVBAYTAkVDMRcwFQYDVQQEDA5K&#13;
+                    SU1FTkVaIFZJVEVSSTEVMBMGA1UEKgwMREVOSVMgSkFESVJBMRkwFwYDVQQFExBJRENFQy0xODUx&#13;
+                    MDAzNTY0MSQwIgYDVQQDDBtERU5JUyBKQURJUkEgSklNRU5FWiBWSVRFUkkxHDAaBgNVBGEME1RJ&#13;
+                    TkVDLTE4NTEwMDM1NjQwMDEwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC+qY8+iZbD&#13;
+                    yfY89Oqeohe3TCXkeMAGil/ZE3GSx2Drc5Y/fCey58+4wkdMGcNWCXev4DZrRy5mrW3HKsrO1sQO&#13;
+                    MNlauaY/9hzifUzKC69zZj63Gs84aOg0BNaeiaNW+qcOPpmasX00cMbYm9MiOy9v5iguiHgj00pR&#13;
+                    dQd2n5y4K423afV2na7EQfpJD4tV7b9qP0alZ11e69uH5KmjAW55zbtXpSVKcTnrwPJRDenCdTRk&#13;
+                    h0Q74kGAMwt9GV95sIsTCrQL9usqFTGYwc9Zwd836yQ8EbIoD9u5WDpBYXXZbAOY1ZBTuANwOL9L&#13;
+                    UxPsOyVxqviq8IFnVQo0jbbMMNmFAgMBAAGjggREMIIEQDAbBgsrBgEEAYLxNmYDAQQMDAoxODUx&#13;
+                    MDAzNTY0MB4GCysGAQQBgvE2ZgMLBA8MDTE4NTEwMDM1NjQwMDEwgdcGCCsGAQUFBwEBBIHKMIHH&#13;
+                    MFUGCCsGAQUFBzAChklodHRwOi8vd3d3LnVhbmF0YWNhLmNvbS9wdWJsaWMvZG93bmxvYWQvdHNw&#13;
+                    X2NlcnRpZmljYXRlcy9zdWJvcmRpbmF0ZTEuY3J0MDYGCCsGAQUFBzABhipodHRwOi8vb2NzcDEu&#13;
+                    dWFuYXRhY2EuY29tL3B1YmxpYy9wa2kvb2NzcC8wNgYIKwYBBQUHMAGGKmh0dHA6Ly9vY3NwMi51&#13;
+                    YW5hdGFjYS5jb20vcHVibGljL3BraS9vY3NwLzAdBgNVHQ4EFgQUVRsKJVhadi5M2oI589CcPkOL&#13;
+                    +rYwDAYDVR0TAQH/BAIwADAfBgNVHSMEGDAWgBR9V+dgc84HRqnio2jw4RGydJJz/TCBmQYDVR0g&#13;
+                    BIGRMIGOMIGLBgwrBgEEAYLxNmYCAQEwezA3BggrBgEFBQcCARYraHR0cHM6Ly93d3cudWFuYXRh&#13;
+                    Y2EuY29tL3B1YmxpYy9wa2kvZHBjLWVjLzBABggrBgEFBQcCAjA0DDJDRVJUSUZJQ0FETyBERSBQ&#13;
+                    RVJTT05BIE5BVFVSQUwgTyBGSVNJQ0EgRU4gQVJDSElWTzCBjwYDVR0fBIGHMIGEMECgPqA8hjpo&#13;
+                    dHRwOi8vY3JsMS51YW5hdGFjYS5jb20vcHVibGljL3BraS9jcmwvQ0Eyc3Vib3JkaW5hZGEuY3Js&#13;
+                    MECgPqA8hjpodHRwOi8vY3JsMi51YW5hdGFjYS5jb20vcHVibGljL3BraS9jcmwvQ0Eyc3Vib3Jk&#13;
+                    aW5hZGEuY3JsMA4GA1UdDwEB/wQEAwIF4DAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwQw&#13;
+                    ggF6BgNVHREEggFxMIIBbYEXZGVuaXNzZWphZGlyYUBnbWFpbC5jb22gGwYLKwYBBAGC8TZmAwGg&#13;
+                    DAwKMTg1MTAwMzU2NKAdBgsrBgEEAYLxNmYDAqAODAxERU5JUyBKQURJUkGgGAYLKwYBBAGC8TZm&#13;
+                    AwOgCQwHSklNRU5FWqAXBgsrBgEEAYLxNmYDBKAIDAZWSVRFUkmgLAYLKwYBBAGC8TZmAwegHQwb&#13;
+                    R1VBWUFTICAgR1VBWUFRVUlMICAgVEFSUVVJoB8GCysGAQQBgvE2ZgMIoBAMDjAwNTkzOTg0OTQ5&#13;
+                    OTY1oBoGCysGAQQBgvE2ZgMJoAsMCUdVQVlBUVVJTKAeBgsrBgEEAYLxNmYDC6APDA0xODUxMDAz&#13;
+                    NTY0MDAxoBMGCysGAQQBgvE2ZgMMoAQMAkVDoCkGCysGAQQBgvE2ZgMyoBoMGFBFUlNPTkEgTkFU&#13;
+                    VVJBTCBPIEZJU0lDQaAYBgsrBgEEAYLxNmYDM6AJDAdBUkNISVZPMA0GCSqGSIb3DQEBCwUAA4IC&#13;
+                    AQAMyxZ0x2JNXRRdlzV8JFRkafDmlKM5HIIA0BQbSGRsB5QnHBjx13lCCSda6HMNAnEnc4LpQoc+&#13;
+                    IGqt6fM8oe1SUG6vPXdHS7pBxctqqv5jC0BJLMhGV9WCy6ZEma3JcQBh+5L24DHGlXq1v04SDwwD&#13;
+                    n82qLghdu7lnwqksGr9RWvZBI71jyJv144d8+EcoG17/VLp2bp9DG00Dj3n26WXg6E2vfd/0h4IH&#13;
+                    wT/EbHHMwf0P/KK7Sj64TFyGD1x7XOg0ksEBOCoLY3T4gE8C4roFw+VK7BgnDVNDlgBWiZ4KFcBt&#13;
+                    sjLgHzB/WSbrKTLbewqcir+s91PN1F4/rGKVAQoQrdQYb+BoS2QunfqBUkQAC9vsqDFfwcsyeWHV&#13;
+                    7X0XKvZb93vIm0sqwiUVxxDW5IiCfZXyMwt2/ykzvaTef8Xe1OwJPBhrpvTdZDYW8mBGmMZ5M8TN&#13;
+                    itH8PQHR0oimWPMKvTK2ig1MJWuF/RItOH30rjf9gh6/PNcXuMcKf9WLpkL8fCdYCu/h/+y0Lgat&#13;
+                    5lsmhYXqqeBhnrzY4uA3lm+PD3PLKwovTwfQ4VK2Ozf1dWwVfas7nqi3fxfyTw1i96ocStjI1gcW&#13;
+                    KNYme0HX9Tr5vckVt5VEvAyT6kHZJodWDnS0tRJBRAhAJhMbi2i5xGe6JsO/FRal+1ncxoEuHDTt&#13;
+                    Lw==</X509Certificate>
+            </X509Data>
+        </KeyInfo>
+    </Signature>
+</factura>
+Respuesta del servicio:
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    <soap:Body>
+        <ns2:validarComprobanteResponse xmlns:ns2="http://ec.gob.sri.ws.recepcion">
+            <RespuestaRecepcionComprobante>
+                <estado>RECIBIDA</estado>
+                <comprobantes />
+            </RespuestaRecepcionComprobante>
+        </ns2:validarComprobanteResponse>
+    </soap:Body>
+</soap:Envelope>
+
+
+
+----
+<factura id="comprobante" version="1.1.0">
+    <infoTributaria>
+        <ambiente>1</ambiente>
+        <tipoEmision>1</tipoEmision>
+        <razonSocial>JIMENEZ VITERI DENIS JADIRA</razonSocial>
+        <ruc>1851003564001</ruc>
+        <claveAcceso>2805202401185100356400110010010000003157101117312</claveAcceso>
+        <codDoc>01</codDoc>
+        <estab>001</estab>
+        <ptoEmi>100</ptoEmi>
+        <secuencial>000000315</secuencial>
+        <dirMatriz>Av. Prueba 12</dirMatriz>
+    </infoTributaria>
+    <infoFactura>
+        <fechaEmision>28/05/2024</fechaEmision>
+        <dirEstablecimiento>Av. Prueba 12</dirEstablecimiento>
+        <obligadoContabilidad>NO</obligadoContabilidad>
+        <tipoIdentificacionComprador>07</tipoIdentificacionComprador>
+        <razonSocialComprador>PRUEBAS SERVICIO DE RENTAS INTERNAS</razonSocialComprador>
+        <identificacionComprador>9999999999999</identificacionComprador>
+        <totalSinImpuestos>548.60</totalSinImpuestos>
+        <totalDescuento>0.00</totalDescuento>
+        <totalConImpuestos>
+            <totalImpuesto>
+                <codigo>2</codigo>
+                <codigoPorcentaje>4</codigoPorcentaje>
+                <baseImponible>548.60</baseImponible>
+                <valor>82.29</valor>
+            </totalImpuesto>
+        </totalConImpuestos>
+        <propina>0</propina>
+        <importeTotal>630.89</importeTotal>
+        <moneda>DOLAR</moneda>
+        <pagos>
+            <pago>
+                <formaPago>01</formaPago>
+                <total>630.89</total>
+            </pago>
+        </pagos>
+    </infoFactura>
+    <detalles>
+        <detalle>
+            <codigoPrincipal>4</codigoPrincipal>
+            <descripcion>SERVICIOS PERSONALES COMO EDUCADORA DEL MES DE ABRIL</descripcion>
+            <cantidad>1</cantidad>
+            <precioUnitario>548.60</precioUnitario>
+            <descuento>0.00</descuento>
+            <precioTotalSinImpuesto>548.60</precioTotalSinImpuesto>
+            <impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>4</codigoPorcentaje>
+                    <tarifa>15.0</tarifa>
+                    <baseImponible>548.60</baseImponible>
+                    <valor>82.29</valor>
+                </impuesto>
+            </impuestos>
+        </detalle>
+    </detalles>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><DigestValue>pY5r+o/ixNLX8O/itd6F6dKjbdo2MZedsFsPyjpJtU4=</DigestValue></Reference></SignedInfo><SignatureValue>pCf/rWverXPiKnF2o1lHO/3LEJatXQGQGH+O5kUiw2sch0n9a9AjOiHkDn6lm8iW7EC1qpvtuP80&#13;
+NoNuGUT7zI7rj1OX5I8UUAkqbCjJ0/8Jnu6TpPdK0mqIGodtrkcnKQEp4FIaWW+92TiXeSQHoYd4&#13;
+1TwzTca039/gzlPenTmJ+7BqA0f5TbkEuRUchS0kUusnXd5zQnNVHKJ0hXmtxpUHvUmsTHP6Lmf2&#13;
++hMxfjuX4n9fapi9Ns2Op39E//6E6DnjmBmn6yeUF3a8QvNgyCsqhYKWBu+pb5VUwVl4pxHKSIkz&#13;
+DdH78E9N5axDwdQrOkaMg114HJE79g0Hf3Qmqg==</SignatureValue><KeyInfo><X509Data><X509Certificate>MIIJHjCCBwagAwIBAgIIR0RDyxEz8mEwDQYJKoZIhvcNAQELBQAwgbgxCzAJBgNVBAYTAkVTMUQw&#13;
+QgYDVQQHDDtCYXJjZWxvbmEgKHNlZSBjdXJyZW50IGFkZHJlc3MgYXQgd3d3LnVhbmF0YWNhLmNv&#13;
+bS9hZGRyZXNzKTEWMBQGA1UECgwNVUFOQVRBQ0EgUy5BLjEVMBMGA1UECwwMVFNQLVVBTkFUQUNB&#13;
+MRowGAYDVQQDDBFVQU5BVEFDQSBDQTIgMjAxNjEYMBYGA1UEYQwPVkFURVMtQTY2NzIxNDk5MB4X&#13;
+DTI0MDMzMDE2NDQwMFoXDTI1MDMzMDE2NDQwMFowgZwxCzAJBgNVBAYTAkVDMRcwFQYDVQQEDA5K&#13;
+SU1FTkVaIFZJVEVSSTEVMBMGA1UEKgwMREVOSVMgSkFESVJBMRkwFwYDVQQFExBJRENFQy0xODUx&#13;
+MDAzNTY0MSQwIgYDVQQDDBtERU5JUyBKQURJUkEgSklNRU5FWiBWSVRFUkkxHDAaBgNVBGEME1RJ&#13;
+TkVDLTE4NTEwMDM1NjQwMDEwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC+qY8+iZbD&#13;
+yfY89Oqeohe3TCXkeMAGil/ZE3GSx2Drc5Y/fCey58+4wkdMGcNWCXev4DZrRy5mrW3HKsrO1sQO&#13;
+MNlauaY/9hzifUzKC69zZj63Gs84aOg0BNaeiaNW+qcOPpmasX00cMbYm9MiOy9v5iguiHgj00pR&#13;
+dQd2n5y4K423afV2na7EQfpJD4tV7b9qP0alZ11e69uH5KmjAW55zbtXpSVKcTnrwPJRDenCdTRk&#13;
+h0Q74kGAMwt9GV95sIsTCrQL9usqFTGYwc9Zwd836yQ8EbIoD9u5WDpBYXXZbAOY1ZBTuANwOL9L&#13;
+UxPsOyVxqviq8IFnVQo0jbbMMNmFAgMBAAGjggREMIIEQDAbBgsrBgEEAYLxNmYDAQQMDAoxODUx&#13;
+MDAzNTY0MB4GCysGAQQBgvE2ZgMLBA8MDTE4NTEwMDM1NjQwMDEwgdcGCCsGAQUFBwEBBIHKMIHH&#13;
+MFUGCCsGAQUFBzAChklodHRwOi8vd3d3LnVhbmF0YWNhLmNvbS9wdWJsaWMvZG93bmxvYWQvdHNw&#13;
+X2NlcnRpZmljYXRlcy9zdWJvcmRpbmF0ZTEuY3J0MDYGCCsGAQUFBzABhipodHRwOi8vb2NzcDEu&#13;
+dWFuYXRhY2EuY29tL3B1YmxpYy9wa2kvb2NzcC8wNgYIKwYBBQUHMAGGKmh0dHA6Ly9vY3NwMi51&#13;
+YW5hdGFjYS5jb20vcHVibGljL3BraS9vY3NwLzAdBgNVHQ4EFgQUVRsKJVhadi5M2oI589CcPkOL&#13;
++rYwDAYDVR0TAQH/BAIwADAfBgNVHSMEGDAWgBR9V+dgc84HRqnio2jw4RGydJJz/TCBmQYDVR0g&#13;
+BIGRMIGOMIGLBgwrBgEEAYLxNmYCAQEwezA3BggrBgEFBQcCARYraHR0cHM6Ly93d3cudWFuYXRh&#13;
+Y2EuY29tL3B1YmxpYy9wa2kvZHBjLWVjLzBABggrBgEFBQcCAjA0DDJDRVJUSUZJQ0FETyBERSBQ&#13;
+RVJTT05BIE5BVFVSQUwgTyBGSVNJQ0EgRU4gQVJDSElWTzCBjwYDVR0fBIGHMIGEMECgPqA8hjpo&#13;
+dHRwOi8vY3JsMS51YW5hdGFjYS5jb20vcHVibGljL3BraS9jcmwvQ0Eyc3Vib3JkaW5hZGEuY3Js&#13;
+MECgPqA8hjpodHRwOi8vY3JsMi51YW5hdGFjYS5jb20vcHVibGljL3BraS9jcmwvQ0Eyc3Vib3Jk&#13;
+aW5hZGEuY3JsMA4GA1UdDwEB/wQEAwIF4DAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwQw&#13;
+ggF6BgNVHREEggFxMIIBbYEXZGVuaXNzZWphZGlyYUBnbWFpbC5jb22gGwYLKwYBBAGC8TZmAwGg&#13;
+DAwKMTg1MTAwMzU2NKAdBgsrBgEEAYLxNmYDAqAODAxERU5JUyBKQURJUkGgGAYLKwYBBAGC8TZm&#13;
+AwOgCQwHSklNRU5FWqAXBgsrBgEEAYLxNmYDBKAIDAZWSVRFUkmgLAYLKwYBBAGC8TZmAwegHQwb&#13;
+R1VBWUFTICAgR1VBWUFRVUlMICAgVEFSUVVJoB8GCysGAQQBgvE2ZgMIoBAMDjAwNTkzOTg0OTQ5&#13;
+OTY1oBoGCysGAQQBgvE2ZgMJoAsMCUdVQVlBUVVJTKAeBgsrBgEEAYLxNmYDC6APDA0xODUxMDAz&#13;
+NTY0MDAxoBMGCysGAQQBgvE2ZgMMoAQMAkVDoCkGCysGAQQBgvE2ZgMyoBoMGFBFUlNPTkEgTkFU&#13;
+VVJBTCBPIEZJU0lDQaAYBgsrBgEEAYLxNmYDM6AJDAdBUkNISVZPMA0GCSqGSIb3DQEBCwUAA4IC&#13;
+AQAMyxZ0x2JNXRRdlzV8JFRkafDmlKM5HIIA0BQbSGRsB5QnHBjx13lCCSda6HMNAnEnc4LpQoc+&#13;
+IGqt6fM8oe1SUG6vPXdHS7pBxctqqv5jC0BJLMhGV9WCy6ZEma3JcQBh+5L24DHGlXq1v04SDwwD&#13;
+n82qLghdu7lnwqksGr9RWvZBI71jyJv144d8+EcoG17/VLp2bp9DG00Dj3n26WXg6E2vfd/0h4IH&#13;
+wT/EbHHMwf0P/KK7Sj64TFyGD1x7XOg0ksEBOCoLY3T4gE8C4roFw+VK7BgnDVNDlgBWiZ4KFcBt&#13;
+sjLgHzB/WSbrKTLbewqcir+s91PN1F4/rGKVAQoQrdQYb+BoS2QunfqBUkQAC9vsqDFfwcsyeWHV&#13;
+7X0XKvZb93vIm0sqwiUVxxDW5IiCfZXyMwt2/ykzvaTef8Xe1OwJPBhrpvTdZDYW8mBGmMZ5M8TN&#13;
+itH8PQHR0oimWPMKvTK2ig1MJWuF/RItOH30rjf9gh6/PNcXuMcKf9WLpkL8fCdYCu/h/+y0Lgat&#13;
+5lsmhYXqqeBhnrzY4uA3lm+PD3PLKwovTwfQ4VK2Ozf1dWwVfas7nqi3fxfyTw1i96ocStjI1gcW&#13;
+KNYme0HX9Tr5vckVt5VEvAyT6kHZJodWDnS0tRJBRAhAJhMbi2i5xGe6JsO/FRal+1ncxoEuHDTt&#13;
+Lw==</X509Certificate></X509Data></KeyInfo></Signature></factura>
